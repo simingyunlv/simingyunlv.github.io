@@ -1,0 +1,10 @@
+{
+  "name": "思明韵律",
+  "short_name": "韵律",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fcfbf7",
+  "theme_color": "#b2772b",
+  "icons": []
+}
+

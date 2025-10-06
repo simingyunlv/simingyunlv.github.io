@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="思明韵律标志">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b2772b" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#b2772b" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <!-- 外环：采用当前文本色，适配明暗模式 -->
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#888" stroke-width="2"/>
+  <!-- 内部云纹：以品牌金色渲染，呼应东方纹样 -->
+  <path d="M18 35c4-6 12-6 16 0s12 6 16 0" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M14 29c4-6 12-6 16 0s12 6 16 0" fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round"/>
+  <!-- 点睛：星点 -->
+  <circle cx="46" cy="20" r="2" fill="#b2772b"/>
+</svg>

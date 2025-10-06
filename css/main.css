@@ -1,0 +1,111 @@
+/* 预编译主样式：与 assets/scss/* 等价（为避免本地未装 Dart Sass 导致构建失败） */
+:root{--color-ink:#222;--color-paper:#fcfbf7;--color-accent:#b2772b;--color-muted:#666;--max-width:780px;--font-serif:"Source Han Serif SC","Noto Serif SC","Songti SC",STSong,"PingFang SC",serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+html[data-color-mode="dark"]{--color-ink:#eae7e1;--color-paper:#111;--color-muted:#aaa}
+body{font-family:var(--font-serif);background:var(--color-paper);color:var(--color-ink)}
+.container{max-width:var(--max-width);margin:0 auto;padding:1.2rem;line-height:1.9}
+h1,h2,h3{line-height:1.3}
+.lead{color:var(--color-muted)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}
+.skip-link{position:absolute;left:-9999px;top:auto}
+.skip-link:focus{left:1rem;top:1rem;background:#fff}
+.card{border:1px solid rgba(0,0,0,.06);border-radius:8px;padding:1rem;background:rgba(255,255,255,.6)}
+.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.cards.poem-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:720px){.cards.poem-cards{grid-template-columns:1fr}}
+.cards.blog-cards{grid-template-columns:1fr}
+.cards.book-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:720px){.cards.book-cards{grid-template-columns:1fr}}
+.blog-cards .card{ position:relative }
+.blog-cards .card .card-date{ position:absolute; top:.6rem; right:.8rem; font-size:.85rem; color:var(--color-accent); background:rgba(178,119,43,.10); border:1px solid rgba(178,119,43,.25); padding:.15rem .5rem; border-radius:9999px; line-height:1 }
+.blog-cards .card h3{ padding-right:5.5rem }
+.list-grid{display:grid;gap:1rem}
+.list-grid .card .meta{ text-align:left }
+.book-cards .card .meta{ text-align:left }
+.meta{color:var(--color-muted);font-size:.9rem;text-align:center}
+.brand{display:flex;align-items:center;gap:.5rem;text-decoration:none;color:inherit}
+.brand-title{font-weight:600}
+.brand-logo{display:block;width:28px;height:28px}
+.site-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem 1.2rem;border-bottom:1px solid rgba(0,0,0,.06)}
+.site-nav ul{display:flex;gap:.8rem;list-style:none;padding:0;margin:0}
+.site-nav a{text-decoration:none}
+.theme-toggle{background:none;border:1px solid rgba(0,0,0,.2);border-radius:6px;padding:.3rem .6rem}
+.site-footer{border-top:1px solid rgba(0,0,0,.06);margin-top:2rem;padding:1.2rem;color:var(--color-muted)}
+.site-footer .footer-line{display:flex;flex-wrap:wrap;gap:.3rem;justify-content:center;align-items:center;text-align:center}
+.site-footer .footer-line a{color:inherit;text-decoration:none}
+.site-footer .footer-line a:hover{color:var(--color-accent);text-decoration:underline}
+.site-branding{display:flex;align-items:center;gap:.8rem}
+.brand-tagline{color:var(--color-muted);font-weight:400;font-size:.95rem;letter-spacing:.01em}
+@media (max-width:520px){.brand-tagline{display:none}}
+.poem-title{text-align:center;letter-spacing:.02em}
+.poem-meta{text-align:center;margin:.2rem 0 .6rem}
+.poem-text{text-align:center}
+.poem-line{margin:.2rem 0}
+.stanza{margin:.6rem 0}
+.embedded-poem .embedded-title{font-size:1.35rem;line-height:1.3;text-align:center;margin:.4rem 0}
+.embedded-poem .meta{text-align:center;margin:.2rem 0 .4rem}
+.embedded-poem .embedded-link{display:inline-flex;align-items:center;text-decoration:none;margin-left:.4rem;color:var(--color-muted)}
+.embedded-poem .embedded-link:hover{color:var(--color-accent)}
+.embedded-poem .embedded-link .icon-link{width:1em;height:1em;vertical-align:middle}
+/* 首页/卡片中的诗词摘要压缩行距，避免跳版 */
+.card .embedded-poem .poem-line{margin:.1rem 0}
+/* 最近诗作：标题居中，黑色无下划线 */
+.poem-cards .card h3{ text-align:center; margin:.1rem 0 .3rem }
+.poem-cards .card h3 a{ color:var(--color-ink); text-decoration:none }
+.poem-cards .card h3 a:hover{ color:var(--color-accent) }
+/* 最近诗作：作者 + 日期（弱化样式） */
+.poem-cards .card .meta{ text-align:center; color:var(--color-muted); font-size:.9rem; margin-top:.2rem }
+.poem-cards .card .card-date{ display:inline; color:inherit; background:none; border:0; padding:0; border-radius:0; line-height:inherit }
+.poem-cards .card .meta-form{ color:var(--color-muted) }
+/* 通用卡片标题样式（黑色、无下划线、默认居中） */
+.cards .card h3{ text-align:center; margin:.1rem 0 .3rem }
+.cards .card h3 a{ color:var(--color-ink); text-decoration:none }
+.cards .card h3 a:hover{ color:var(--color-accent) }
+/* 最新博文标题不居中 */
+.blog-cards .card h3{ text-align:left }
+.prose>h1,.post>h1,.book>header>h1,.book-chapter>header>h1,.person>h1,.org>h1,.list-header>h1{ text-align:center }
+.book header .meta,.book-chapter header .meta,.post .meta,.prose>.meta,.person .meta,.org .meta{ text-align:center }
+.poem-side{margin-top:1rem;padding:.8rem;border-left:3px solid var(--color-accent);background:rgba(178,119,43,.04)}
+/* 书卡封面（首页） */
+.cards.book-cards .book-cover{display:block;width:100%;max-width:240px;aspect-ratio:3/4;height:auto;object-fit:cover;border:1px solid rgba(0,0,0,.08);margin:.3rem auto}
+/* 书籍页面封面：保持原图比例，尽量铺满列宽 */
+.book header .book-cover{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border:1px solid rgba(0,0,0,.08);margin:.6rem auto}
+/* 书籍根页目录：随页面滚动（非粘性），但保留边线与内边距 */
+.book .toc{padding:.6rem .8rem;border-left:3px solid var(--color-accent)}
+/* 章节页二级标题居中 */
+.book-chapter .content h2{ text-align:center; margin:1.8rem 0 1rem }
+.toc.sticky{position:sticky;top:1rem;max-height:70vh;overflow:auto;padding:.6rem .8rem;border-left:3px solid var(--color-accent)}
+.chapter-nav{display:flex;justify-content:space-between;gap:1rem;margin-top:2rem}
+/* 章节页：左侧目录 + 右侧正文布局 */
+.chapter-layout{display:grid;grid-template-columns:240px 1fr;gap:1.2rem}
+@media (max-width: 920px){.chapter-layout{grid-template-columns:1fr}}
+.chapter-aside .chapter-toc{padding-left:1rem}
+.chapter-toc a.active{font-weight:600;color:var(--color-accent)}
+/* 章节页目录：不粘性、不限高，随页面滚动 */
+.chapter-aside.toc{position:static;max-height:none;overflow:visible;padding:.6rem .8rem;border-left:3px solid var(--color-accent);align-self:start}
+/* 章节页：当前章节内的二级标题（H2）锚点列表 */
+.chapter-toc .chapter-subheadings{margin:.25rem 0 .6rem .5rem;padding-left:1rem;list-style:disc;font-size:.95rem;line-height:1.6}
+.chapter-toc .chapter-subheadings li{margin:.12rem 0}
+.chapter-toc .chapter-subheadings a{text-decoration:none;color:var(--color-muted)}
+.chapter-toc .chapter-subheadings a:hover{color:var(--color-accent)}
+*:focus-visible{outline:2px solid var(--color-accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+.theme-root{background-image:radial-gradient(rgba(0,0,0,.02) 1px,transparent 1px),url('/img/patterns/cloud.svg');background-size:24px 24px,320px auto;background-attachment:fixed}
+pre,code,kbd,samp{font-family:var(--font-mono)}
+pre{background:rgba(0,0,0,.06);padding:.8rem;border-radius:8px;overflow:auto}
+code{background:rgba(0,0,0,.05);padding:.1rem .3rem;border-radius:4px}
+.home-hero{text-align:center;margin:1.2rem 0 2rem}
+.note{font-size:.95rem;color:var(--color-muted);border-left:3px solid var(--color-accent);padding:.5rem .8rem;background:rgba(178,119,43,.05)}
+.breadcrumbs{font-size:.9rem;color:var(--color-muted);margin:.6rem 0 1rem}
+.breadcrumbs ol{display:flex;gap:.2rem;list-style:none;padding:0;margin:0;flex-wrap:wrap}
+.breadcrumbs ol li{display:flex;align-items:center}
+.breadcrumbs ol li+li:before{content:"›";display:inline-block;margin:0 .3rem;color:var(--color-muted)}
+.breadcrumbs a{color:inherit}
+.search input[type=search]{width:70%;max-width:520px;padding:.6rem .8rem}
+.results{list-style:none;padding:0}
+.results li{padding:.6rem 0;border-bottom:1px dashed rgba(0,0,0,.1)}
+.pagination{display:flex;justify-content:center;align-items:center;gap:.4rem;list-style:none;padding:0;margin:1.4rem 0 0}
+.pagination .page-item{display:inline-flex}
+.pagination .page-link{display:inline-flex;align-items:center;justify-content:center;min-width:2.25rem;height:2rem;padding:0 .6rem;border:1px solid rgba(0,0,0,.15);border-radius:6px;background:#fff;color:var(--color-ink);text-decoration:none}
+.pagination .page-item.active .page-link{background:var(--color-accent);color:#fff;border-color:var(--color-accent)}
+.pagination .page-item.disabled .page-link{opacity:.5;pointer-events:none}
+.pagination .page-link:hover{border-color:var(--color-accent);color:var(--color-accent)}

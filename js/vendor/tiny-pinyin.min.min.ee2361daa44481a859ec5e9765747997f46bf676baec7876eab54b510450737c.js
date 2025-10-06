@@ -1,0 +1,1 @@
+(function(e){e.tinyPinyin=e.tinyPinyin||e.tinyPinyin||{}})(window)
