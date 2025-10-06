@@ -57,6 +57,11 @@ h1,h2,h3{line-height:1.3}
 .poem-cards .card .meta{ text-align:center; color:var(--color-muted); font-size:.9rem; margin-top:.2rem }
 .poem-cards .card .card-date{ display:inline; color:inherit; background:none; border:0; padding:0; border-radius:0; line-height:inherit }
 .poem-cards .card .meta-form{ color:var(--color-muted) }
+
+/* Lists: poems/friends/default list grids should left-align poem snippets */
+.list-grid .embedded-poem .poem-text{ text-align:left }
+.list-grid .embedded-poem .embedded-title{ text-align:left }
+.list-grid .embedded-poem .meta{ text-align:left }
 /* 通用卡片标题样式（黑色、无下划线、默认居中） */
 .cards .card h3{ text-align:center; margin:.1rem 0 .3rem }
 .cards .card h3 a{ color:var(--color-ink); text-decoration:none }
