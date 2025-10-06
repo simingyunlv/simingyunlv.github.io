@@ -2,6 +2,8 @@
    注意：内容与 static/css/main.css 保持同步。若切换到 Sass 管线，可删除本文件。 */
 :root{--color-ink:#222;--color-paper:#fcfbf7;--color-accent:#b2772b;--color-muted:#666;--max-width:780px;--font-serif:"Source Han Serif SC","Noto Serif SC","Songti SC",STSong,"PingFang SC",serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 html[data-color-mode="dark"]{--color-ink:#eae7e1;--color-paper:#111;--color-muted:#aaa}
+/* 全站字号放大 1.33 倍（基于默认 16px → 21.33px） */
+html{ font-size:133.333% }
 body{font-family:var(--font-serif);background:var(--color-paper);color:var(--color-ink)}
 .container{max-width:var(--max-width);margin:0 auto;padding:1.2rem;line-height:1.9}
 h1,h2,h3{line-height:1.3}
