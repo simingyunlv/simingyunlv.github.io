@@ -1,5 +1,5 @@
 /* 预编译主样式：与 assets/scss/* 等价（为避免本地未装 Dart Sass 导致构建失败） */
-:root{--color-ink:#222;--color-paper:#fcfbf7;--color-accent:#b2772b;--color-muted:#666;--max-width:780px;--font-serif:"Source Han Serif SC","Noto Serif SC","Songti SC",STSong,"PingFang SC",serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+:root{--color-ink:#222;--color-paper:#fcfbf7;--color-accent:#b2772b;--color-muted:#666;--max-width:920px;--font-serif:"Source Han Serif SC","Noto Serif SC","Songti SC",STSong,"PingFang SC",serif;--font-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 html[data-color-mode="dark"]{--color-ink:#eae7e1;--color-paper:#111;--color-muted:#aaa}
 /* 全站字号放大 1.33 倍（基于默认 16px → 21.33px） */
 html{ font-size:133.333% }
