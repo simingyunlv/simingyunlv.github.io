@@ -828,7 +828,7 @@
  &lt;path fill="currentColor" d="M5 5h7v2H7v10h10v-5h2v7H5z"/&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
- &lt;/h3&gt;&lt;p class="meta"&gt;黄思明 · 2025-10-05&lt;/p&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;未名湖畔喜成群，十二年来仔细耘。&lt;/p&gt;&lt;p class="poem-line"&gt;合璧中西红楼梦，包容今古九州昕。&lt;/p&gt;&lt;p class="poem-line"&gt;高歌唱和韵律起，微信琢磨平仄分。&lt;/p&gt;&lt;p class="poem-line"&gt;常思伏枥老怀热，莫管闲花惹风云。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+ &lt;/h3&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;未名湖畔喜成群，十二年来仔细耘。&lt;/p&gt;&lt;p class="poem-line"&gt;合璧中西红楼梦，包容今古九州昕。&lt;/p&gt;&lt;p class="poem-line"&gt;高歌唱和韵律起，微信琢磨平仄分。&lt;/p&gt;&lt;p class="poem-line"&gt;常思伏枥老怀热，莫管闲花惹风云。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;div class="embedded-poem"&gt;&lt;h3 class="embedded-title"&gt;（二）
@@ -838,7 +838,7 @@
  &lt;path fill="currentColor" d="M5 5h7v2H7v10h10v-5h2v7H5z"/&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
- &lt;/h3&gt;&lt;p class="meta"&gt;黄思明 · 2025-10-05&lt;/p&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;燕园未识真，群里学巴人。&lt;/p&gt;&lt;p class="poem-line"&gt;白发蹉跎老，红颜日月新。&lt;/p&gt;&lt;p class="poem-line"&gt;诗词相契合，格律渐精纯。&lt;/p&gt;&lt;p class="poem-line"&gt;唱和呈佳友，诚惭敝帚贫。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+ &lt;/h3&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;燕园未识真，群里学巴人。&lt;/p&gt;&lt;p class="poem-line"&gt;白发蹉跎老，红颜日月新。&lt;/p&gt;&lt;p class="poem-line"&gt;诗词相契合，格律渐精纯。&lt;/p&gt;&lt;p class="poem-line"&gt;唱和呈佳友，诚惭敝帚贫。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;div class="embedded-poem"&gt;&lt;h3 class="embedded-title"&gt;（三）
@@ -848,7 +848,7 @@
  &lt;path fill="currentColor" d="M5 5h7v2H7v10h10v-5h2v7H5z"/&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
- &lt;/h3&gt;&lt;p class="meta"&gt;黄思明 · 2025-10-05&lt;/p&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;锐意再求新，颜回岂惧贫。&lt;/p&gt;&lt;p class="poem-line"&gt;程门听白雪，鹿洞学诗人。&lt;/p&gt;&lt;p class="poem-line"&gt;句酌添佳意，字斟除世尘。&lt;/p&gt;&lt;p class="poem-line"&gt;瘦肩怎担重，拙笨更难驯。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+ &lt;/h3&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;锐意再求新，颜回岂惧贫。&lt;/p&gt;&lt;p class="poem-line"&gt;程门听白雪，鹿洞学诗人。&lt;/p&gt;&lt;p class="poem-line"&gt;句酌添佳意，字斟除世尘。&lt;/p&gt;&lt;p class="poem-line"&gt;瘦肩怎担重，拙笨更难驯。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;div class="embedded-poem"&gt;&lt;h3 class="embedded-title"&gt;（四）东风第一枝
@@ -858,4 +858,7 @@
  &lt;path fill="currentColor" d="M5 5h7v2H7v10h10v-5h2v7H5z"/&gt;
  &lt;/svg&gt;
  &lt;/a&gt;
- &lt;/h3&gt;&lt;p class="meta"&gt;黄思明 · 2025-10-05&lt;/p&gt;</description></item></channel></rss>
+ &lt;/h3&gt;&lt;div class="poem-text" role="group" aria-label="诗文"&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;再借东风，侬来吾往，年年月月勤约。&lt;/p&gt;&lt;p class="poem-line"&gt;君方唱罢佳辞，应对搜肠探索。&lt;/p&gt;&lt;p class="poem-line"&gt;和声韵律，拾朝卉、由心飞跃。&lt;/p&gt;&lt;p class="poem-line"&gt;更惹来、厚意深情，怎敢妄自菲薄。&lt;/p&gt;&lt;/div&gt;&lt;div class="stanza"&gt;&lt;p class="poem-line"&gt;喜嘤鸣、细雕慢琢。&lt;/p&gt;&lt;p class="poem-line"&gt;字字斟、加餐细嚼。&lt;/p&gt;&lt;p class="poem-line"&gt;好文句逗高标，雪月风花合格。&lt;/p&gt;&lt;p class="poem-line"&gt;友声可集，了心愿、试水之作。&lt;/p&gt;&lt;p class="poem-line"&gt;瘦诗肩、屡改涂鸦，只是邯郸初学。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;p&gt;最后，我们想对侯碧辉同学表示诚挚的谢意，她为我们的诗集题写了书名！&lt;/p&gt;</description></item></channel></rss>
